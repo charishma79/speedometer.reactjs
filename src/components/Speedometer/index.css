@@ -1,0 +1,78 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.bg-container {
+  background-color: #07080c;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.speedometer-image {
+  width: 250px;
+  height: 150px;
+}
+
+.text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.acc-btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 10px;
+}
+
+.brake-btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: 2px solid #cbd5e1;
+  padding: 10x;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 15px;
+  }
+}
